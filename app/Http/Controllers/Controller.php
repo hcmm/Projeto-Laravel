@@ -12,7 +12,8 @@ abstract class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     
     protected $user;
-
+	
+    //Test Comments to Git
     public function __construct()
     {
         $this->user = auth()->user();
